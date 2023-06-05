@@ -1,0 +1,37 @@
+﻿Построение начато 09.07.2019 19:04:25.
+     1>Проект "D:\_ADMIN\_PROG\wordgame\concat\concat.vcxproj" в узле 3 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\concat.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\concat.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         d:\APPS\TOOLS\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\_admin\_prog\wordgame\concat\main.cpp(38): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\apps\tools\vs2010\vc\include\stdio.h(234): см. объявление "fopen"
+     1>d:\_admin\_prog\wordgame\concat\main.cpp(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\apps\tools\vs2010\vc\include\stdio.h(234): см. объявление "fopen"
+     1>d:\_admin\_prog\wordgame\concat\main.cpp(83): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\apps\tools\vs2010\vc\include\stdio.h(249): см. объявление "freopen"
+     1>d:\_admin\_prog\wordgame\concat\main.cpp(84): warning C4018: <: несоответствие типов со знаком и без знака
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\concat.exe.embed.manifest.res" Debug\concat_manifest.rc 
+       Link:
+         d:\APPS\TOOLS\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_ADMIN\_PROG\wordgame\Debug\concat.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\concat.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\_ADMIN\_PROG\wordgame\Debug\concat.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_ADMIN\_PROG\wordgame\Debug\concat.lib" /MACHINE:X86 Debug\concat.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         Файл "Debug\concat.exe.embed.manifest" удаляется.
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\concat.exe.embed.manifest" /manifest Debug\concat.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\concat.exe.embed.manifest.res" Debug\concat_manifest.rc 
+       LinkEmbedManifest:
+         d:\APPS\TOOLS\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\_ADMIN\_PROG\wordgame\Debug\concat.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\concat.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\_ADMIN\_PROG\wordgame\Debug\concat.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\_ADMIN\_PROG\wordgame\Debug\concat.lib" /MACHINE:X86 Debug\concat.exe.embed.manifest.res
+         Debug\main.obj
+         concat.vcxproj -> D:\_ADMIN\_PROG\wordgame\Debug\concat.exe
+       FinalizeBuildStatus:
+         Файл "Debug\concat.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\concat.lastbuildstate".
+     1>Построение проекта "D:\_ADMIN\_PROG\wordgame\concat\concat.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:12.03

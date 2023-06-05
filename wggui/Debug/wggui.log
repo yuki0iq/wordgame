@@ -1,0 +1,20 @@
+﻿Построение начато 18.11.2019 11:17:51.
+     1>Проект "D:\_ADMIN\_PROG\wordgame\wggui\wggui.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\wggui.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         Для всех выходных данных обновления не требуется.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         wggui.vcxproj -> D:\_ADMIN\_PROG\wordgame\Win32\Debug\wggui.exe
+       FinalizeBuildStatus:
+         Файл "Debug\wggui.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\wggui.lastbuildstate".
+     1>Построение проекта "D:\_ADMIN\_PROG\wordgame\wggui\wggui.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.23
